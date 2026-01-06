@@ -6,14 +6,14 @@ This project is an end-to-end Medical NLP system designed to automatically class
 
 The focus of this project is production-ready architecture, model comparison, and system design, not just raw accuracy.
 __________________________________________________________________________________
-🎯 Problem Statement
-Given a medical transcription (doctor notes, discharge summaries, clinical reports):
-1.Predict the medical specialty (e.g., Cardiology, Neurology, Surgery, etc.)
-2.Handle real-world challenges:
+##🎯 Problem Statement
+-**Given a medical transcription (doctor notes, discharge summaries, clinical reports)**:
+-1.Predict the medical specialty (e.g., Cardiology, Neurology, Surgery, etc.)
+-2.Handle real-world challenges:
     - Severe class imbalance
     - Long, noisy medical text
     - Minority specialty recall
-3.Demonstrate how the system can be extended to RAG-based clinical reasoning
+-3.Demonstrate how the system can be extended to RAG-based clinical reasoning
 __________________________________________________________________________________
 📂 Dataset
    -Source: Medical Transcriptions Dataset
