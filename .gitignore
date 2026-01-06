@@ -9,8 +9,14 @@ venv/
 *.bin
 *.safetensors
 
-# Data folders
-data/
+# Ignore data by default
+data/*
+
+# ✅ Allow sample data folder
+!data/sample/
+!data/sample/sample_input_data.csv
+
+# Ignore other data subfolders
 data/raw/
 data/processed/
 data/cleaned_medical_transcriptions*.csv
@@ -24,6 +30,3 @@ checkpoints/
 # Python cache
 __pycache__/
 *.pyc
-# Allow sample data for demo
-!data/sample/
-!data/sample/*.csv
