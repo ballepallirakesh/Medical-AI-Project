@@ -10,6 +10,7 @@ venv/
 *.safetensors
 
 # Data folders
+data/
 data/raw/
 data/processed/
 data/cleaned_medical_transcriptions*.csv
