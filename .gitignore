@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+
+# HuggingFace / cache
+.cache/
+
+# Model weights
+*.pt
+*.bin
+*.safetensors
+
+# Data folders
+data/raw/
+data/processed/
+data/cleaned_medical_transcriptions*.csv
+
+# Training outputs
+artifacts/
+models/
+logs/
+checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
