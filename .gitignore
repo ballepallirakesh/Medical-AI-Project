@@ -24,3 +24,6 @@ checkpoints/
 # Python cache
 __pycache__/
 *.pyc
+# Allow sample data for demo
+!data/sample/
+!data/sample/*.csv
